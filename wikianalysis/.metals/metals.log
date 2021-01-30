@@ -1,0 +1,153 @@
+[0m2021.01.30 12:24:01 INFO  Started: Metals version 0.9.10 in workspace '/home/eunicelee/Wiki-Analysis/wikianalysis' for client vscode 1.52.1.[0m
+[0m2021.01.30 12:24:01 INFO  time: initialize in 0.56s[0m
+[0m2021.01.30 12:24:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.01.30 12:24:13 INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4131071283902212754/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.01.30 12:24:13 WARN  no build target for: /home/eunicelee/Wiki-Analysis/wikianalysis/project/metals.sbt[0m
+[0m2021.01.30 12:24:13 WARN  no build target for: /home/eunicelee/Wiki-Analysis/wikianalysis/project/project/metals.sbt[0m
+[0m2021.01.30 12:24:13 WARN  Unable to produce semanticdb for /home/eunicelee/Wiki-Analysis/wikianalysis/project/project/metals.sbt[0m
+[0m2021.01.30 12:24:13 WARN  Unable to produce semanticdb for /home/eunicelee/Wiki-Analysis/wikianalysis/project/metals.sbt[0m
+[0m2021.01.30 12:24:13 INFO  skipping build import with status 'Started'[0m
+[0m2021.01.30 12:24:17 INFO  [info] welcome to sbt 1.4.6 (Private Build Java 1.8.0_275)[0m
+[0m2021.01.30 12:24:22 INFO  [info] loading settings for project wikianalysis-build-build from metals.sbt ...[0m
+[0m2021.01.30 12:24:23 INFO  [info] loading project definition from /home/eunicelee/Wiki-Analysis/wikianalysis/project/project[0m
+[0m2021.01.30 12:24:27 INFO  [info] loading settings for project wikianalysis-build from metals.sbt ...[0m
+[0m2021.01.30 12:24:27 INFO  [info] loading project definition from /home/eunicelee/Wiki-Analysis/wikianalysis/project[0m
+[0m2021.01.30 12:24:31 INFO  [success] Generated .bloop/wikianalysis-build.json[0m
+[0m2021.01.30 12:24:31 INFO  [info] compiling 1 Scala source to /home/eunicelee/Wiki-Analysis/wikianalysis/project/target/scala-2.12/sbt-1.0/classes ...[0m
+[0m2021.01.30 12:24:36 INFO  [info] done compiling[0m
+[0m2021.01.30 12:24:36 INFO  [success] Total time: 9 s, completed Jan 30, 2021 12:24:37 PM[0m
+[0m2021.01.30 12:24:40 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.01.30 12:24:40 INFO  [info] set current project to wikianalysis (in build file:/home/eunicelee/Wiki-Analysis/wikianalysis/)[0m
+[0m2021.01.30 12:24:41 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.01.30 12:24:41 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.01.30 12:24:41 INFO  [success] Total time: 1 s, completed Jan 30, 2021 12:24:41 PM[0m
+[0m2021.01.30 12:24:41 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.01.30 12:24:42 INFO  time: ran 'sbt bloopInstall' in 29s[0m
+[0m2021.01.30 12:24:42 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7977252821047759599/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/home/eunicelee/Wiki-Analysis/wikianalysis/.bloop'...
+[0m[32m[D][0m Loading project from '/home/eunicelee/Wiki-Analysis/wikianalysis/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/home/eunicelee/Wiki-Analysis/wikianalysis/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/eunicelee/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7977252821047759599/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7977252821047759599/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.01.30 12:24:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json[0m
+[0m2021.01.30 12:24:42 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4817790868853575117/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4817790868853575117/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4817790868853575117/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.01.30 12:24:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json[0m
+[0m2021.01.30 12:24:42 INFO  time: connected to build server in 0.49s[0m
+[0m2021.01.30 12:24:42 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.01.30 12:24:43 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.01.30 12:24:49 INFO  time: indexed workspace in 6.68s[0m
+[0m2021.01.30 12:26:07 INFO  compiling wikianalysis-build (1 scala source)[0m
+[0m2021.01.30 12:26:15 INFO  time: compiled wikianalysis-build in 7.91s[0m
+[0m2021.01.30 12:27:00 INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals799397876616619071/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.01.30 12:27:04 INFO  [info] welcome to sbt 1.4.6 (Private Build Java 1.8.0_275)[0m
+[0m2021.01.30 12:27:06 INFO  [info] loading settings for project wikianalysis-build-build from metals.sbt ...[0m
+[0m2021.01.30 12:27:08 INFO  [info] loading project definition from /home/eunicelee/Wiki-Analysis/wikianalysis/project/project[0m
+[0m2021.01.30 12:27:09 WARN  no build target for: /home/eunicelee/Wiki-Analysis/wikianalysis/project/plugins.sbt[0m
+[0m2021.01.30 12:27:10 INFO  [info] loading settings for project wikianalysis-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.01.30 12:27:10 INFO  [info] loading project definition from /home/eunicelee/Wiki-Analysis/wikianalysis/project[0m
+[0m2021.01.30 12:27:12 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.01.30 12:27:12 WARN  no build target for: /home/eunicelee/Wiki-Analysis/wikianalysis/project/plugins.sbt[0m
+[0m2021.01.30 12:27:12 WARN  Unable to produce semanticdb for /home/eunicelee/Wiki-Analysis/wikianalysis/project/plugins.sbt[0m
+[0m2021.01.30 12:27:19 INFO  [success] Generated .bloop/wikianalysis-build.json[0m
+[0m2021.01.30 12:27:21 INFO  skipping build import with status 'Started'[0m
+[0m2021.01.30 12:27:26 INFO  [success] Total time: 15 s, completed Jan 30, 2021 12:27:26 PM[0m
+[0m2021.01.30 12:27:33 ERROR /home/eunicelee/Wiki-Analysis/wikianalysis/build.sbt:16: error: not found: value assemblyMergeStrategy[0m
+[0m2021.01.30 12:27:33 ERROR assemblyMergeStrategy in assembly := {[0m
+[0m2021.01.30 12:27:33 ERROR ^[0m
+[0m2021.01.30 12:27:33 ERROR /home/eunicelee/Wiki-Analysis/wikianalysis/build.sbt:16: error: not found: value assembly[0m
+[0m2021.01.30 12:27:33 ERROR assemblyMergeStrategy in assembly := {[0m
+[0m2021.01.30 12:27:33 ERROR                          ^[0m
+[0m2021.01.30 12:27:33 ERROR /home/eunicelee/Wiki-Analysis/wikianalysis/build.sbt:17: error: not found: value PathList[0m
+[0m2021.01.30 12:27:33 ERROR   case PathList("META-INF", xs @ _*) => MergeStrategy.discard[0m
+[0m2021.01.30 12:27:33 ERROR        ^[0m
+[0m2021.01.30 12:27:33 ERROR /home/eunicelee/Wiki-Analysis/wikianalysis/build.sbt:17: error: star patterns must correspond with varargs parameters[0m
+[0m2021.01.30 12:27:33 ERROR   case PathList("META-INF", xs @ _*) => MergeStrategy.discard[0m
+[0m2021.01.30 12:27:33 ERROR                                   ^[0m
+[0m2021.01.30 12:27:33 ERROR /home/eunicelee/Wiki-Analysis/wikianalysis/build.sbt:17: error: not found: value MergeStrategy[0m
+[0m2021.01.30 12:27:33 ERROR   case PathList("META-INF", xs @ _*) => MergeStrategy.discard[0m
+[0m2021.01.30 12:27:33 ERROR                                         ^[0m
+[0m2021.01.30 12:27:33 ERROR /home/eunicelee/Wiki-Analysis/wikianalysis/build.sbt:18: error: not found: value MergeStrategy[0m
+[0m2021.01.30 12:27:33 ERROR   case x                             => MergeStrategy.first[0m
+[0m2021.01.30 12:27:33 ERROR                                         ^[0m
+[0m2021.01.30 12:27:33 INFO  [error] Type error in expression[0m
+[0m2021.01.30 12:27:33 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
+[0m2021.01.30 12:27:33 INFO  sbt bloopInstall exit: 1[0m
+[0m2021.01.30 12:27:33 INFO  time: ran 'sbt bloopInstall' in 33s[0m
+[0m2021.01.30 12:27:33 ERROR sbt command failed: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals799397876616619071/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+[0m2021.01.30 12:27:33 INFO  Disconnecting from Bloop session...[0m
+[0m2021.01.30 12:27:33 INFO  Shut down connection with build server.[0m
+[0m2021.01.30 12:27:33 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.01.30 12:27:33 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7688068614516490326/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.01.30 12:27:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json[0m
+[0m2021.01.30 12:27:33 INFO  Attempting to connect to the build server...[0m
+[0m2021.01.30 12:27:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json[0m
+[0m2021.01.30 12:27:34 INFO  time: connected to build server in 0.27s[0m
+[0m2021.01.30 12:27:34 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.01.30 12:27:34 INFO  time: imported build in 0.12s[0m
+[0m2021.01.30 12:27:34 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.01.30 12:27:34 INFO  time: indexed workspace in 0.57s[0m
+[0m2021.01.30 12:27:34 WARN  no build target for: /home/eunicelee/Wiki-Analysis/wikianalysis/project/plugins.sbt[0m
+[0m2021.01.30 12:27:38 WARN  no build target for: /home/eunicelee/Wiki-Analysis/wikianalysis/project/plugins.sbt[0m
+[0m2021.01.30 12:27:38 WARN  Unable to produce semanticdb for /home/eunicelee/Wiki-Analysis/wikianalysis/project/plugins.sbt[0m
+[0m2021.01.30 12:27:39 INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals846541929199796220/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.01.30 12:27:43 INFO  [info] welcome to sbt 1.4.6 (Private Build Java 1.8.0_275)[0m
+[0m2021.01.30 12:27:49 INFO  [info] loading settings for project wikianalysis-build-build-build from metals.sbt ...[0m
+[0m2021.01.30 12:27:51 INFO  [info] loading project definition from /home/eunicelee/Wiki-Analysis/wikianalysis/project/project/project[0m
+[0m2021.01.30 12:27:54 INFO  [info] loading settings for project wikianalysis-build-build from metals.sbt ...[0m
+[0m2021.01.30 12:27:54 INFO  [info] loading project definition from /home/eunicelee/Wiki-Analysis/wikianalysis/project/project[0m
+[0m2021.01.30 12:27:58 INFO  [success] Generated .bloop/wikianalysis-build-build.json[0m
+[0m2021.01.30 12:27:58 INFO  [success] Total time: 4 s, completed Jan 30, 2021 12:27:59 PM[0m
+[0m2021.01.30 12:28:00 INFO  [info] loading settings for project wikianalysis-build from metals.sbt,plugins.sbt ...[0m
+[0m2021.01.30 12:28:00 INFO  [info] loading project definition from /home/eunicelee/Wiki-Analysis/wikianalysis/project[0m
+[0m2021.01.30 12:28:03 INFO  [success] Generated .bloop/wikianalysis-build.json[0m
+[0m2021.01.30 12:28:04 INFO  [success] Total time: 4 s, completed Jan 30, 2021 12:28:04 PM[0m
+[0m2021.01.30 12:28:08 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.01.30 12:28:08 INFO  [info] set current project to wikianalysis (in build file:/home/eunicelee/Wiki-Analysis/wikianalysis/)[0m
+[0m2021.01.30 12:28:11 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m2021.01.30 12:28:11 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m2021.01.30 12:28:11 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.01.30 12:28:11 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.01.30 12:28:11 INFO  [success] Total time: 3 s, completed Jan 30, 2021 12:28:11 PM[0m
+[0m2021.01.30 12:28:12 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.01.30 12:28:12 INFO  time: ran 'sbt bloopInstall' in 32s[0m
+[0m2021.01.30 12:28:12 INFO  Disconnecting from Bloop session...[0m
+[0m2021.01.30 12:28:12 INFO  Shut down connection with build server.[0m
+[0m2021.01.30 12:28:12 INFO  Shut down connection with build server.[0m
+[0m2021.01.30 12:28:12 INFO  Attempting to connect to the build server...[0m
+[0m2021.01.30 12:28:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json[0m
+[0m2021.01.30 12:28:12 INFO  Attempting to connect to the build server...[0m
+[0m2021.01.30 12:28:12 INFO  Attempting to connect to the build server...[0m
+[0m2021.01.30 12:28:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json[0m
+[0m2021.01.30 12:28:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eunicelee/.cache/metals/bsp.trace.json[0m
+[0m2021.01.30 12:28:12 INFO  time: connected to build server in 0.21s[0m
+[0m2021.01.30 12:28:12 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.01.30 12:28:13 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.01.30 12:28:13 INFO  time: indexed workspace in 0.9s[0m
+[0m2021.01.30 12:28:22 INFO  compiling wikianalysis-build (1 scala source)[0m
+[0m2021.01.30 12:28:26 INFO  time: compiled wikianalysis-build in 3.78s[0m
